@@ -1,0 +1,36 @@
+.column {
+  display: inline-block;
+  margin: 2px;
+  border: 2px solid transparent;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  max-width: 30px;
+}
+
+.column:hover {
+  border: 2px red solid;
+  background-color: transparent !important;
+}
+
+.columns-container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.current-column {
+  border: 2px dashed red;
+}
+
+.current-min {
+  border: 2px dashed green;
+}
+/*# sourceMappingURL=columns.css.map */
